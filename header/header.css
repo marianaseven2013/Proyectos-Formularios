@@ -1,0 +1,14 @@
+header h1 {
+    text-align: center;  
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+height: 7rem;
+background-color: bisque;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
