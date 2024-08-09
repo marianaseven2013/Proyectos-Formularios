@@ -17,7 +17,7 @@ let formularios = [
     {nombre: "Formulario de Regristro", link:"componentes/formularioDeRegistro/formularioDeRegistro.html"},
     {nombre: "Formulario De Busqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
     {nombre: "Formulario de Pedido de Compras", link:"componentes/formularioDePedidoCompras/formularioDePedido.html"},
-    {nombre: "Formulario de Comentarios de Reseñas", link:"componentes/formularioDeComentariosReseñas/formularioComentario.html"},
+    {nombre: "Formulario de Comentarios de Reseñas", link:"componentes/formularioComentarios/formularioComentarios.html"},
 
 ];  
 
