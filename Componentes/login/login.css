@@ -1,0 +1,201 @@
+.blox-login {
+    width: 100%;
+    max-width: 102rem;
+
+    height: 55rem;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 5%;
+
+    display: grid;
+    grid-template-columns: 53rem auto;
+}
+
+.blox-login .formulario {
+    height: 100%;
+    padding: 10rem 15rem;
+    width: 60rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 3rem 5rem 5rem 2rem 3rem 5rem 5rem ;
+    gap: 1rem;
+}
+
+.blox-login .log {
+    grid-column: 1/9;
+    font-weight: 2rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.blox-login h2 {
+    grid-column: 1/9;
+    font-family: sans-serif;
+    color: rgb(134, 134, 134);
+}
+
+.btn-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+}
+
+.blox-login .btn-facebook {
+    grid-column: 1/5;
+    background-color: rgb(46, 67, 161);
+    color: white;
+    border-radius: 3px;
+    font-weight: 2px;
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blox-login .btn-facebook img {
+    height: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.btn-xing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 2rem;
+    height: 3rem;
+}
+
+.blox-login .btn-xing {
+    grid-column: 5/9;
+    background-color: rgb(9, 71, 73);
+    font-weight: 3px;
+    color: white;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blox-login .btn-xing img {
+    height: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.blox-login span {
+    grid-column: 4/5;
+    font-size: 1.3rem;
+}
+
+#login{
+    grid-column: 1/9;
+}
+
+#login label{
+    color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#login input{
+    height: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#login .mail{
+    border-bottom: 1px solid grey;
+}
+
+#login .pass{
+    border-bottom: 1px solid grey;
+}
+
+#login .opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login .opciones label{
+    font-size: 1.3rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login .opciones .forgot {
+    font-size: 1.2rem;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #login .opciones label input{
+    width: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #4158D0;
+}
+ */
+ #login .opciones input {
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+#login .botones button{
+    border: none;
+    width: 12rem;
+    border-radius: 3px;
+}
+
+#login .hola {
+    border-bottom: 1px solid rgb(151, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login .hola input:focus {
+    border-bottom: 1px solid rgb(209, 195, 148);
+}
+
+#login .botones .btn-Sig{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(172, 171, 171);
+    height: 3.5rem;
+    margin-left: 2rem;
+}
+
+#login .botones .btn-log{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    box-shadow: 2px 5px 8px 2px rgb(196, 195, 195);
+    height: 3.5rem;
+}
+
+.box-login .formulario .nngr{
+    margin-top: 2rem;
+}
+
+.ppe .azul {
+    color: skyblue;
+}
+
+.negris {
+    color: black;
+}
+
+.banner{
+    height: 54.8rem;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
