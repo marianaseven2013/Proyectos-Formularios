@@ -1,0 +1,156 @@
+.Cgrande {
+    height: 45rem;
+   display: grid;
+   grid-template-columns: 28rem 6rem 6rem 6rem 6rem 6rem 5rem 5rem 5rem 5rem 5rem 2rem;
+   grid-template-rows: 2rem 1rem repeat(10, 1fr);
+   
+   margin-left: 25rem;
+   margin-top: 10rem;
+}
+
+.hola1 {
+   background-color: rgb(31, 31, 31);
+   grid-column: 1/13;
+   grid-row: 3/13;
+   border-radius: 7px;
+}
+
+.hola2 {
+   grid-column: 6/11;
+   grid-row: 2/11;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(8, 1fr);
+
+   box-shadow: 5px 5px 5px 5px rgb(185, 185, 185);
+}
+
+.ing {
+   grid-column: 1/2;
+   grid-row: 1/2;
+
+   font-size: 1.3rem;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#int .hola input {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3.5rem;
+   border-top: none;
+}
+
+#int .hola input:hover {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3rem;
+   border-bottom: 1px solid black;
+}
+
+h1 {
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.3rem;
+}
+
+#intt .hole input {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3.5rem;
+   border-top: none;
+}
+
+#intt .hole input:hover {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3rem;
+   border-bottom: 3px solid black;
+}
+
+.hola3 {
+   grid-column: 1/6;
+   grid-row: 4/9;
+   background-color: rgb(31, 31, 31);
+   border-radius: 5px;
+}
+
+.hola3 img {
+   width: 100%;
+   height: 100%;
+}
+
+.hola4 {
+   grid-column: 1/2;
+   grid-row: 8/9;
+}
+
+.hola4 h1 {
+   font-size: 3rem;
+   color: rgb(218, 217, 217);
+   font-feature-settings: "abvs";
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hola5 {
+   grid-column: 2/3;
+   grid-row: 11/12;
+}
+
+.hola5 img {
+   width: 5.5rem;
+   height: 4rem;
+}
+.hola5 h1 {
+   color: white;
+}
+
+.hola6 {
+   grid-column: 4/5;
+   grid-row: 11/12;
+}
+
+.hola6 img {
+   width: 5.3rem;
+   height: 4rem;
+   border-radius: 30rem;
+}
+
+.hola6 h1 {
+   color: white;
+}
+#inttt .Numberr input {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3.5rem;
+   border-top: none;
+}
+
+#inttt .Numberr input:hover {
+   display: flex;
+   flex-direction: column;
+   margin-left: 3rem;
+   border-bottom: 1px solid black;
+}
+
+.hola7  {
+   background-color: rgb(87, 87, 87);
+   grid-column: 1/13;
+   grid-row: 1/2;
+   border-radius: 2px;
+}
+
+.hola8  {
+   grid-column: 1/2;
+   grid-row: 11/12;
+
+   color: white;
+}
+
+.hola8 h1 {
+   font-size: 3rem;
+   font-family: 'Times New Roman', Times, serif;
+}
