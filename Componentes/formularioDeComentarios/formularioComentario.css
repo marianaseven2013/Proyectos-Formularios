@@ -1,0 +1,158 @@
+.secComentarios{
+    width: 100%;
+    max-width: 102rem;
+    height: 55rem;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom:4%;
+    font-family: "Jura", sans-serif;
+
+    display: grid;
+    grid-template-columns: 52rem 1fr;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.pFormComentarios{
+    grid-row: 1/8;
+    grid-column: 2/3;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.pFormComentariosBanner{
+    grid-row: 1/8;
+    grid-column: 1/2;
+}
+.pFormComentariosBanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ENCABEZADO */
+
+.encabezadoFeed{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    padding: 2rem;
+    border-bottom: 2px solid rgb(89, 89, 89);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoYTit{
+    display: flex;
+    align-items: center;
+}
+.titFeedBackFCom{
+    font-size: 1.7rem;
+}
+.logoFComent{
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+}
+
+/* CONTENIDO */
+
+.sHowAreYou{
+    grid-row: 2/5;
+    grid-column: 1/2;
+
+    display: grid;
+    grid-template-rows: 8rem 6rem 7rem;
+    grid-template-columns: 1fr;
+}
+.titHowAre{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.textHowAre{
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+    color: rgb(45, 45, 45);
+}
+.cajonEmo{
+    height: 9rem;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding: 2rem 3.5rem;
+    width: 35rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emojisFormComent{
+    background-color: lightgreen;
+    padding: 0.8rem;
+    border-radius: 5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.emojisFormComent:hover{
+    margin: 0.8rem;
+    font-size: 6rem;
+    transition: 0.7s;
+}
+
+
+/* AREA DE COMENTARIOS */
+
+#formFormularioComent{
+    grid-row: 5/7;
+    grid-column: 1/2;
+
+    display: flex;
+    flex-direction: column;
+}
+#formFormularioComent .cuadEscribir{
+    margin-top: 1rem;
+    color: rgb(68, 67, 67);
+    font-size: 1.4rem;
+    padding: 0rem 2rem;
+}
+#formFormularioComent input{
+    height: 12rem;
+    
+    margin: 1rem 2rem;
+    outline: none;
+    border: 1px solid rgb(175, 169, 169);
+    background-color: rgb(236, 235, 235);
+    border-radius: 1.2rem;
+    padding: 2rem;
+    color: rgb(54, 54, 54);
+}
+
+
+/* BOTON */
+
+.botSubmitFComen{
+    grid-row: 7/8;
+    grid-column: 1/2;
+
+    height: 5rem;
+    margin: 1rem 2rem;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(57, 176, 57);
+    color: aliceblue;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
